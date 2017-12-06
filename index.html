@@ -1,0 +1,90 @@
+<!-- balise global HTML, définition de la langue de la page -->
+<html lang="fr">
+<head>
+    <!-- définitin du jeu de character UTF-8 afin d'utiliser les accents -->
+    <meta charset="UTF-8">
+    <title>Division Technique du CEJEF</title>
+    <!--
+        importation du pack icones de http://fontawesome.io/icons/
+        utilisation:
+        <i class="fa fa-icon-name"></i>
+    -->
+    <script src="https://use.fontawesome.com/d625f8383b.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- le header collée en haut de la page -->
+    <header>
+        <!-- la barre rose avec les liens utiles -->
+        <div id="banniere" class="aligner">
+            <!-- ajout d'espace entre les éléments des listes
+                pour éviter les espaces ajoutés automatiquements -->
+            <ul id="contact" class="liste-liens">
+                <li><a href=""><i class="fa fa-phone"></i> +41 (0) 32 420 35 50</a></li><!--
+             --><li><a href="mailto:info@divtec.ch"><i class="fa fa-envelope"></i> info@divtec.ch</a></li>
+            </ul>
+            <ul id="liens" class="liste-liens">
+                <li><a href="">DIVTEC</a></li><!--
+             --><li><a href="">Ecole des métiers</a></li><!--
+             --><li><a href="">Ecole professionel</a></li><!--
+             --><li><a href="">Maturité professionelle</a></li><!--
+             --><li><a href="">Ecole supérieur</a></li><!--
+             --><li><b><a href=""><i class="fa fa-lock"></i> Portail DIVTEC</a></b></li>
+            </ul>
+        </div>
+
+        <!-- logo -->
+        <div class="aligner">
+            <img src="img/logo.png" alt="logo DIVTEC" id="logo">
+        </div>
+        <!-- la barre de menu du site -->
+        <div id="menu" class="aligner">
+            <ul class="liste-liens">
+                <li><a href="">Accueil</a></li><!--
+             --><li><a href="">Ecoles</a></li><!--
+             --><li><a href="">Responsables</a></li><!--
+             --><li><a href="">Agenda</a></li><!--
+             --><li><a href="">Nous contacter</a></li><!--
+             --><li><a href=""><i class="fa fa-search"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- le slider d'images, fix sur cette version -->
+    <div id="gallerie">
+        <span id="titre">Bienvenue à la Division technique à<br>Porrentruy</span>
+    </div>
+
+    <!-- les différentes sections du site -->
+    <section class="sec-clair aligner" id="ecoles">
+        <div class="contenu">
+            <h2>Ecoles de la Division technique</h2>
+
+            <p>Je suis un paragraphe de texte <u>très intéressant</u><br> et <b>formaté</b> !</p>
+        </div>
+    </section>
+
+    <section class="sec-fonce aligner" id="responsables">
+        <div class="contenu">
+            <h2>Responsables de la Division technique</h2>
+
+            <p>Autre paragraphe tout aussi intéressant:</p>
+        </div>
+    </section>
+
+    <section class="sec-trans aligner" id="agenda">
+        <div class="contenu">
+            <h2>Agenda</h2>
+
+            <p>Aucune date à afficher</p>
+        </div>
+    </section>
+
+    <!-- le pied de page, avec copyright, etc -->
+    <footer>
+        <img src="img/iso.png" alt="logo ISO 9001">
+        <img src="img/cejef.png" alt="logo CEJEF">
+        <p>&copy;2017 Division technique du CEJEF. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

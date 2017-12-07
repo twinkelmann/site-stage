@@ -7,9 +7,18 @@
     /* suppresion des marges par défaut sur tous les éléments */
     padding: 0;
     margin: 0;
+}
 
-    /* police global */
-    font-family: Arial, sans-serif;
+#titre,
+h1, h2
+{
+    font-family: "Roboto", "Helvecica", "Arial", sans-serif;
+    font-weight: lighter;
+}
+
+p
+{
+    font-family: "Open Sans", "Arial", sans-serif;
 }
 
 /* aucune image ne doit être plus large que la page */
@@ -137,21 +146,11 @@ header *
 
 section
 {
-    padding: 20px 0;
+    padding: 70px 0;
     width: 100%;
 }
 
-/* les sections claires du site */
-.sec-clair
-{
-}
-
-/* les sections foncées du site */
-.sec-fonce
-{
-}
-
-.sec-trans
+#agenda
 {
     background-image: url("img/agenda.jpg");
     background-attachment: fixed;
@@ -188,7 +187,20 @@ section
 
 footer
 {
-    padding-bottom: 300px;
+    padding: 70px 0 30px;
+    width: 100%;
+    text-align: center;
+}
+
+footer img
+{
+    max-width: 50%;
+    width: 100px;
+}
+
+footer p
+{
+    margin-top: 30px;
 }
 
 /*
@@ -248,6 +260,11 @@ header
     color: #222222;
 }
 
+.sec-clair h2
+{
+    color: #333333;
+}
+
 /* les sections foncées du site */
 .sec-fonce
 {
@@ -258,4 +275,20 @@ header
 .sec-trans *
 {
     color: #dddddd;
+}
+
+.sec-fonce h2,
+.sec-trans h2
+{
+    color: #cccccc;
+}
+
+footer
+{
+    background-color: #141414;
+}
+
+footer p
+{
+    color: #666666
 }
